@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="susti2.css">
+
+<div  class="cubo"></div>
+<div id="contenedor" class="letra">Hola</div>
+
+    <script>
+    var m=11;
+    </script>
+       
+</head>
+<body onload="elhola()">
+
+
+<script>
+
+
+function elhola(){
+    setTimeout(proxfun1,5000);
+}
+
+
+function proxfun1(){
+    elcontador=setInterval(proxfun2,1000)
+}
+
+
+function proxfun2(){
+
+
+    m=m-1;
+    document.getElementById('contenedor').innerHTML=(m);
+    if (m==0) {
+
+
+        clearInterval(elcontador);
+        var t=document.getElementById('contenedor').innerHTML=("Terminé")
+    }
+}
+
+</script>
+    
+
+<button onclick="acti3()" style="position: absolute;top: 83%; left: 85%; width: 150px; height: 100px; z-index: 10; background: #8792A0; border-radius: 20px; border;"> Actividad 3. </button>
+</div>
+<script>
+    function acti3() {
+        window.location.href = "https://sanmartinez1.github.io/ejer3/";
+    
+     
+            }
+</script>
+
+</body>
+</html>

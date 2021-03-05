@@ -1,0 +1,22 @@
+body{
+     background:linear-gradient(to bottom, #E8EB28 20%, #EB6028 80%) fixed no-repeat;
+     background-size: cover;
+ }
+
+.cubo{
+position: absolute;
+height: 48%;
+width: 48%; 
+left: 28%; 
+top: 26%;
+background: #A9D822
+}
+.letra{
+position: absolute;
+height: 48%;
+width: 48%; 
+left: 48%; 
+top: 46%;
+font-size: 40px;
+
+}
